@@ -1,8 +1,7 @@
 // ShootThemUp Game All Rights Reserved
-
+#include "Weapon/STURifleWeapon.h"
 #include "NiagaraFunctionLibrary.h"
 #include "NiagaraComponent.h"
-#include "Weapon/STURifleWeapon.h"
 #include "Engine/World.h"
 #include "DrawDebugHelpers.h"
 #include "Weapon/Components/STUWeaponFXComponent.h"
