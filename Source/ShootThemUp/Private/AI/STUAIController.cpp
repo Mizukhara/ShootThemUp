@@ -25,8 +25,8 @@ void ASTUAIController::OnPossess(APawn* InPawn)
 void ASTUAIController::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
-   // const auto AimActor = GetFocusOnActor();
-   // SetFocus(AimActor);
+    const auto AimActor = GetFocusOnActor();
+    SetFocus(AimActor);
 }
 
 AActor* ASTUAIController::GetFocusOnActor() const
